@@ -1,0 +1,150 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  
+  font-weight: bold;
+ 
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  background-color: gray;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+
+
+
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.row {
+    margin-bottom: 50px ;
+    font-family: calibri;
+    font-size:30px;
+    text-align:center;
+    width:100%;
+    height: 100px;
+    margin-left:5px;
+    margin-right: 5px;
+    background-position: center;
+  }
+
+
+h5 {
+
+  margin-bottom: 50px ;
+  font-family: calibri;
+  font-size:75px;
+  text-align:center;
+}
+
+h2{
+  
+  padding-bottom: 100px;
+  padding-top: 15px;
+  width: 100%;
+  height: 50px;
+  font-family: impact;
+  color: black;
+  text-align:center;
+
+}
+  h3{
+
+  padding-top: 15px;
+  width: 100%;
+  height: 50px;
+  font-family: impact;
+  color: black;
+  text-align:center;
+  
+ 
+}
+h4{
+  padding-top: 15px;
+  width: 100%;
+  height: 50px;
+  font-family: impact;
+  color: black;
+  text-align:center;
+}
+
+
+p{
+  background-color:gray;
+  font-family: calibri;
+    font-size:15px;
+    color:black;
+    padding:15px;
+    height: 250px;
+    width: 100%;
+}
+
+.category-title { 
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+  background-color: gray;
+  }
+.category-tittle span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  background-color: gray;
+  color: #fff;
+  opacity: .8;
+}
+.category-tittle:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+
+
